@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D-site-gallery</title>
+
+
+    <!-- Стили CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- -->
+
+    <!-- Скрипты -->
+    <script src="js/script.js" defer></script>
+    <!-- -->
+
+</head>
+<body>
+
+    <!-- Первый блок -->
+    <div class="container">
+        <section class="gallery">
+
+            <!-- Первый фрейм - заголовок -->
+            <div class="frame">
+               <div class="frame__content">
+                    <h2>Beautiful World</h2>
+                </div>
+            </div>
+
+            <!-- Второй фрейм - картинки, лево -->
+            <div class="frame">
+                <div class="frame__content">
+                    <div class="frame__media frame-media__left" style="background-image: url(images/1.jpg);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Третий фрейм - видео-1, право -->
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <video class="frame__media frame-media__right" src="media/video_optimized.mp4" autoplay loop muted>
+                    </video>
+                </div>
+            </div>
+
+            <!-- Расстояние между видео -->
+            <div class="frame"></div>
+
+            <!-- Четвёртый фрейм - текстовый блок, право -->
+            <div class="frame">
+                <div class="frame__content text-right">
+                    <h3>Pure planet</h3>
+                    <p>Тут ещё текст должен быть...</p>
+                </div>
+            </div>
+
+            <!-- Пятый фрейм - картинка, лево -->
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <div class="frame__media frame-media__left" style="background-image: url(images/2.jpg);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Шестой фрейм - картинка, право -->
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <div class="frame__media frame-media__right" style="background-image: url(images/3.jpg);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Расстояние между фреймами -->
+            <div class="frame"></div>
+
+            <!-- Седьмой фрейм - текст, лево -->
+            <div class="frame">
+                <div class="frame__content text-left">
+                    <h3>Ask the Mountais</h3>
+                    <p>Тут ещё текст должен быть...</p>
+                </div>
+            </div>
+
+            <!-- Восьмой фрейм - картинка, право -->
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <div class="frame__media frame-media__right" style="background-image: url(images/4.jpg);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Девятый фрейм - видео-2, лево -->
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <video class="frame__media frame-media__left" src="media/video_rendered.mp4" autoplay loop muted>
+                    </video>
+                </div>
+            </div>
+
+            <!-- Расстояние между фреймами -->
+            <div class="frame"></div>
+
+            <!-- Расстояние между фреймами -->
+            <div class="frame"></div>
+
+            <!-- Десятый фрейм - картинка, право -->
+            <div class="frame frame_bg">
+                <div class="frame__content">
+                    <div class="frame__media frame-media__right" style="background-image: url(images/5.jpg);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Одиннадцатый фрейм - видео-3, лево -->
+            <div class="frame">
+                <div class="frame__content">
+                    <video class="frame__media frame-media__left" src="media/video_src.mp4" autoplay loop muted>
+                    </video>
+                </div>
+            </div>
+
+            <!-- Расстояние между фреймами -->
+            <div class="frame"></div>
+
+            <!-- Расстояние между фреймами -->
+            <div class="frame"></div>
+
+            <!-- Последний фрейм -->
+            <div class="frame">
+                <div class="frame__content">
+                    © WebDesign Master
+                </div>
+            </div>
+
+        </section> <!-- /.gallery -->
+    </div> <!-- /.container -->
+    
+    <!-- Добавляем музыку на страницу -->
+    <img class="soundbutton paused" src="images/sound.gif" alt="music">
+    <audio class="audio" src="media/ambient.mp3" loop></audio>
+
+</body>
+</html>
